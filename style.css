@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+h3{
+  font-size:2rem;
+  font-family: 'Montserrat', sans-serif;
+  color:blue;
+  text-align:center;
+}
+.highted{
+  color:orange;
+}
+.para1{
+  font-size:1rem;
+  font-weight:bold;
+  text-align:center;
+}
+.Frequent-text{
+  background-color:blue;
+  height:40px;
+  text-align:center;
+  padding-top:10px;
+  border-radius:5px;
+}
+.MainPortion{
+  display:flex;
+  justify-content:space-evenly;
+}
+.cupcake{
+  height:100px;
+  width:10rem;
+  margin-top: 25px;
+}
+.portionText{
+  display:flex;
+  flex-direction:column;
+  padding:20px;
+  justify-content: space-evenly;
+  
+}
+.BoldText{
+  color:darkblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size:2rem;
+  margin-bottom:5px;
+  
+}
+.BoldPara{
+  margin-top:5px;
+  color:lightblue;
+}
+.junkFood1{
+  display:flex;
+  justify-content: space-between;
+}
+.main1{
+  max-width:450px;
+  border-right:3px dashed blueviolet;
+  padding:10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.main2{
+  max-width:450px;
+/*   border:1px solid black; */
+  padding:10px;
+}
+.Frequent-text{
+  background-color:blue;
+  height:40px;
+  text-align:center;
+  padding-top:10px;
+  border-radius:5px;
+}
+.food1{
+  font-size:22px;
+  color:blueviolet;
+  align-content:center;
+  text-align:center;
+}
+.food2{
+  height:80px;
+}
+.percent{
+  font-size:28px;
+  align-content:center;
+}
+.threedivs{
+  display:flex;
+  justify-content: flex-start;
+}
+.Healthydiv{
+  display:flex;
+  flex-direction:column;
+}
+.a{
+  margin-right:10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.b{
+  margin-left:10px;
+  margin-right:10px;
+  color:orange;
+  width:90px;
+  font-family: 'Varela Round', sans-serif;
+}
+.c{
+  margin-left:10px;
+}
+divtwo{
+  font-family: 'Montserrat', sans-serif;
+  color:darkblue;
+  font-size:35px;
+}
+.combine1-2{
+  display:flex;
+}
+.FoodItems{
+  min-width:450px;
+margin-left:20px
+}
+.foods{
+  display:flex;
+}
+.food-img{
+  height:80px;
+}
+.Details-percent{
+  display:flex;
+   margin-left:20px;
+  height:90px;
+  
+}
+.people{
+  font-size:25px;
+  color:lightseagreen;
+}
+.D1{
+  width:120px;
+ 
+}
+.D2{
+  width:100px;
+  padding-top:50px;
+}
+.person-cat{
+  font-size:20px;
+  color:orange;
+  margin-bottom:0px;
+}
+.perc{
+  font-size:35px;
+  font-weight:bold;
+  color:darkblue;
+  margin-top:0px;
+}
+.Full-container{
+  display:flex;
+ }
+.left-div{
+  max-width:120px;
+}
+.left-head{
+  padding-top:10px;
+/*   padding-left:30px; */
+  margin-top:0px;
+  margin-bottom:0px;
+  font-size:20px;
+  color:darkblue;
+  text-align:right;
+}
+.left-para1{
+  margin-top:0px;
+  font-size:30px;
+  color:orange;
+  margin-bottom:0px;
+  text-align:right;
+}
+.left-para2{
+  margin-top:0px;
+  font-size:8px;
+  text-align:right;
+  color:lightseagreen;
+}
+.img1{
+  height:70px;
+  width:70px;
+  border-radius:50%;
+  border:1px solid black;
+}
+.Medical{
+  display:flex;
+  flex-direction:row;
+}
+.MedicalHead{
+  display:flex;
+  flex-direction:column;
+  width:450px;
+   border-left:3px dashed blueviolet;
+  margin-left:14px;
+  padding-left:10px;
+}
+.medi{
+  width:150px;
+  padding-top:20px;
+}
+.mediA{
+  margin-bottom:0px;
+  color:darkblue;
+}
+.mediB{
+  margin-top:2px;
+  margin-bottom:0px;
+  color:orange;
+}
+.mediC{
+  margin-top:5px;
+  color:lightseagreen;
+  font-size:12px;
+}
+.Frequent-text{
+  background-color:blue;
+  height:40px;
+  text-align:center;
+  padding-top:10px;
+  border-radius:5px;
+}
+@media(max-width:1024px){
+  .combine1-2{
+  display:flex;
+  flex-direction:column;
+}
+  .main1{
+    border-right:none;
+  }
+  .Full-container{
+  display:flex;
+    flex-direction:column;
+ }
+  .MedicalHead{
+    border-left:none;
+    padding-left:0px;
+  }
+  .BoldText {
+    padding-left:0px;
+  }
+  .BoldPara{
+    padding-left:0px;
+  }
+}
+@media(max-width:300px){
+  .BoldText {
+    padding-left:100px;
+  }
+  .BoldPara{
+    padding-left:100px;
+  }
+}
